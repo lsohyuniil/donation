@@ -76,6 +76,10 @@
     @apply absolute top-[-9999px];
   }
 
+  .content {
+    @apply mx-auto max-w-[1600px] px-6;
+  }
+
   .container-wrap {
     @apply flex items-center justify-center;
   }

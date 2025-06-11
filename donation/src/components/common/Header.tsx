@@ -3,7 +3,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header className="border-b border-white">
-      <div className="mx-auto flex h-18 max-w-screen-2xl items-center justify-between px-6">
+      <div className="content flex h-18 items-center justify-between">
         <div className="flex gap-7">
           <Link href="/" className="">
             {/* <img src="" alt="로고" /> */}
