@@ -1,18 +1,19 @@
 @import "tailwindcss";
 
 @theme {
-  --color-point: #3a33a4;
+  --color-point-orange: #fa812f;
+  --color-point-yellow: #ffb22c;
   --color-white: #f2f2f2;
   --color-black: #222222;
   --color-red: #ff5b5b;
   --color-gray: #c3c3c3;
 
-  --text-base: 18px;
   --text-small: 16px;
-  --text-title: 40px;
+  --text-base: 18px;
 
-  --radius-button: 30px;
-  --radius-card: 20px;
+  --text-small-title: 20px;
+  --text-base-title: 24px;
+  --text-big-title: 40px;
 }
 
 @layer base {

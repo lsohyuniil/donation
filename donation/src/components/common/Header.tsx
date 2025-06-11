@@ -5,10 +5,12 @@ const Header = () => {
     <header className="border-b border-white">
       <div className="content flex h-18 items-center justify-between">
         <div className="flex gap-7">
-          <Link href="/" className="">
-            {/* <img src="" alt="로고" /> */}
-            로고
-          </Link>
+          <h1>
+            <Link href="/" className="">
+              {/* <img src="" alt="로고" /> */}
+              로고
+            </Link>
+          </h1>
 
           <nav>
             <ul className="flex gap-10 font-semibold">
